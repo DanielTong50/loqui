@@ -1,24 +1,30 @@
 <script>
     import Example from "../components/example.svelte";
 
-
     let x = 0;
 
     function handleClick(){
         x++;
     }
 
-    //https://svelte.dev/tutorial/svelte-window
+    // https://svelte.dev/tutorial/svelte-window
     let key;
     function handleKeydown(event){
         key = event.key;
         if(key == 1){
-            //play phrase 1
+            // play phrase 1
         }
     }
+
+    // Set phrase tracks
+    const phraseTracks = [
+
+    ];
+
+
 </script>
 
-<h1>Welcome to SvelteKit</h1>
+<h1>Svelte</h1>
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
 <Example />
@@ -27,9 +33,10 @@
 <svelte:window on:keydown={handleKeydown}/>
 <p>{key}</p>
 
-
+<!-- CSS Stuff -->
 <style>
     h1 {
         color: red;
+        
     }
 </style>
