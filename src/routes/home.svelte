@@ -16,8 +16,8 @@
 	}
 
 </script>
-<svelte:window on:keydown={handleKeydown} />
 
+<svelte:window on:keydown={handleKeydown} />
 <Logo />
 <div class="phrases">
     <PhraseOptions num=1 description="General"/>
