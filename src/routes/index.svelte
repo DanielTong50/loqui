@@ -1,35 +1,40 @@
 <script>
-    import Example from "../components/example.svelte";
+    import Logo from "../components/logo.svelte";
+    import HomePage from "./home.svelte";
 
-
-    let x = 0;
-
-    function handleClick(){
-        x++;
-    }
-
-    //https://svelte.dev/tutorial/svelte-window
-    let key;
-    function handleKeydown(event){
-        key = event.key;
-        if(key == 1){
-            //play phrase 1
-        }
-    }
+	
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-
-<Example />
-
-<button on:click={handleClick}>Clicked on {x} times</button>
-<svelte:window on:keydown={handleKeydown}/>
-<p>{key}</p>
+<HomePage />
 
 
 <style>
-    h1 {
-        color: red;
-    }
+	.title {
+	}
+	.button-description {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		font-size: small;
+	}
+
+	.button-description button {
+		background-color: #7fc0cf; /* Aqua blue */
+		color: white;
+		text-align: center;
+		border: none;
+		font-weight: 700;
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		font-style: normal;
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 37px;
+		/* identical to box height */
+
+		letter-spacing: 0.08em;
+		padding: 20px;
+		border-radius: 100px;
+		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	}
 </style>
