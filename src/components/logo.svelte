@@ -7,6 +7,7 @@
 <style>
     .title {
         align-items: center;
+        text-align: center;
     }
 
     img {
