@@ -10,7 +10,7 @@
             goto('/general')
         }
         else if(key == 2){
-            goto('/at_home')
+            goto('/outside')
         }
 
         else if(key == 3){
@@ -37,11 +37,10 @@
 <Logo />
 <div class="phrases">
     <PhraseOptions num=1 description="General"/>
-    <PhraseOptions num=2 description="At Home"/>
-    <PhraseOptions num=3 description="Outside"/>
-    <PhraseOptions num=4 description="Moving Around"/>
-    <PhraseOptions num=5 description="Emergency"/>
-    <PhraseOptions num=6 description="Interaction"/>
+    <PhraseOptions num=2 description="Outside"/>
+    <PhraseOptions num=3 description="Moving Around"/>
+    <PhraseOptions num=4 description="Emergency"/>
+    <PhraseOptions num=5 description="Interaction"/>
 </div>
 
 <div class = "instructions">

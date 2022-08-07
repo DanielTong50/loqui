@@ -10,7 +10,6 @@
         if(key == 0){
             goto('home');
         }
-
         
 	}
 
@@ -18,6 +17,7 @@
 <svelte:window on:keydown={handleKeydown} />
 
 <div class="phrases">
+    <PhraseOptions num=0 description="Exit"/>
     <PhraseOptions num=1 description="Thanks."/>
     <PhraseOptions num=2 description="Sorry."/>
     <PhraseOptions num=3 description="Excuse me."/>
