@@ -22,9 +22,10 @@
 <div class="phrases">
     <PhraseOptions num=1 description="General"/>
     <PhraseOptions num=2 description="At Home"/>
-    <PhraseOptions num=3 description="Moving Around"/>
-    <PhraseOptions num=4 description="Emergency"/>
-    <PhraseOptions num=5 description="Other"/>
+    <PhraseOptions num=3 description="Outside"/>
+    <PhraseOptions num=4 description="Moving Around"/>
+    <PhraseOptions num=5 description="Emergency"/>
+    <PhraseOptions num=6 description="Interaction"/>
 </div>
 
 
