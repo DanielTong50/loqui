@@ -10,7 +10,7 @@
             goto('/general')
         }
         else if(key == 2){
-            goto('/')
+            goto('/at_home')
         }
 		
 	}
