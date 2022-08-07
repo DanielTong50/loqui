@@ -28,4 +28,16 @@
     <PhraseOptions num=6 description="Interaction"/>
 </div>
 
+<div class = "instructions">
+    <p>Press the number corresponding to the phrase option. Press 0 to always return to the home page.</p>
+</div>
+
+<style>
+    .instructions {
+        color: gray;
+        font-family: "Inter";
+        font-style: italic;
+    }
+</style>
+
 
