@@ -12,7 +12,23 @@
         else if(key == 2){
             goto('/at_home')
         }
+
+        else if(key == 3){
+            goto('/outside')
+        }
+
+        else if(key == 4){
+            goto('/moving_around')
+        }
+
+        else if(key == 5){
+            goto('/emergency')
+        }
 		
+        else if(key == 6){
+            goto('interaction')
+        }
+
 	}
 
 </script>
