@@ -3,12 +3,20 @@
     import Logo from "../components/Logo.svelte";
     import PhraseOptions from "../components/PhraseOptions.svelte";
     import { goto } from '$app/navigation';
+import { onMount } from "svelte";
 
     let key;
+
+    let thanks = new Audio("./Audio_files/Thanks.mp3")
+
+
 	function handleKeydown(event) {
 		key = event.key;
         if(key == 0){
             goto('home');
+        }
+        if(key == 1){
+            thanks.play();
         }
         
 	}
