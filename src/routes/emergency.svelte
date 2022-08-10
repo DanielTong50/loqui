@@ -1,6 +1,6 @@
 <h1>Emergency Phrases</h1>
 <script>
-    import PhraseOptions from "../components/PhraseOptions.svelte";
+    import PhraseOptions from "../components/phraseoptions.svelte";
     import { goto } from '$app/navigation';
 
     let key;

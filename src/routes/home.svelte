@@ -1,6 +1,6 @@
 <script>
     import Logo from "../components/logo.svelte";
-    import PhraseOptions from "../components/PhraseOptions.svelte";
+    import PhraseOptions from "../components/phraseoptions.svelte";
     import { goto } from '$app/navigation';
 
     let key;
