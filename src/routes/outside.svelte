@@ -1,6 +1,5 @@
 <h1>Outside Phrases</h1>
 <script>
-    import Logo from "../components/Logo.svelte";
     import PhraseOptions from "../components/PhraseOptions.svelte";
     import { goto } from '$app/navigation';
 

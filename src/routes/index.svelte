@@ -1,5 +1,4 @@
 <script>
-    import Logo from "../components/Logo.svelte";
     import HomePage from "./home.svelte";
 </script>
 
