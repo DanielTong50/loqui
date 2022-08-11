@@ -7,17 +7,42 @@ import { onMount } from "svelte";
     let key;
 
     let thanks = new Audio("./Audio_files/Thanks.mp3")
-
+    let sorry = new Audio("./Audio_files/Sorry.mp3")
+    let excuseme = new Audio("./Audio_files/ExcuseMe.mp3")
+    let hello = new Audio("./Audio_files/Hello.mp3")
+    let helpmewiththis = new Audio("./Audio_files/HelpMeWithThis.mp3")
+    let hungry = new Audio("./Audio_files/Hungry.mp3")
 
 	function handleKeydown(event) {
 		key = event.key;
         if(key == 0){
             goto('home');
         }
+
         if(key == 1){
             thanks.play();
         }
+
+        if(key == 2){
+            sorry.play();
+        }
         
+        if(key == 3){
+            excuseme.play();
+        }
+
+        if(key == 4){
+            hello.play();
+        }
+
+        if(key == 5){
+            helpmewiththis.play();
+        }
+
+        if(key == 6){
+            hungry.play();
+        }
+
 	}
 
 </script>

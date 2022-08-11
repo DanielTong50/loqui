@@ -4,10 +4,42 @@
     import { goto } from '$app/navigation';
 
     let key;
+
+    let water = new Audio("./Audio_files/Water.mp3")
+    let food = new Audio("./Audio_files/Food.mp3")
+    let bus = new Audio("./Audio_files/Bus.mp3")
+    let excuseme = new Audio("./Audio_files/ExcuseMe.mp3")
+    let getthrough = new Audio("./Audio_files/GetThrough.mp3")
+    let getthere = new Audio("./Audio_files/HelpMeGetThere.mp3")
+
 	function handleKeydown(event) {
 		key = event.key;
         if(key == 0){
             goto('home');
+        }
+
+        if (key == 1){
+            water.play();
+        }
+
+        if (key == 2){
+            food.play();
+        }
+
+        if (key == 3){
+            bus.play();
+        }
+
+        if (key == 4){
+            excuseme.play();
+        }
+
+        if (key == 5){
+            getthrough.play();
+        }
+
+        if (key == 6){
+            getthere.play();
         }
 	}
 
