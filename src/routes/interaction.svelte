@@ -1,3 +1,4 @@
+<title>Interaction</title>
 <h1>Interaction Phrases</h1>
 <script>
     import PhraseOptions from "../components/phraseoptions.svelte";
