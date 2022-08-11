@@ -1,3 +1,4 @@
+<title>Moving Around</title>
 <h1>Moving Around Phrases</h1>
 <script>
     import PhraseOptions from "../components/phraseoptions.svelte";

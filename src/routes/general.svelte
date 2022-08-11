@@ -1,3 +1,4 @@
+<title>General</title>
 <h1>General Phrases</h1>
 <script>
     import PhraseOptions from "../components/phraseoptions.svelte";

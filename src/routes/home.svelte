@@ -1,3 +1,4 @@
+<title>Loqui</title>
 <script>
     import Logo from "../components/logo.svelte";
     import PhraseOptions from "../components/phraseoptions.svelte";
