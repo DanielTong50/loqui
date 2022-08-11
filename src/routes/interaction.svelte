@@ -4,10 +4,32 @@
     import { goto } from '$app/navigation';
 
     let key;
+
+    let speakup = new Audio("./Audio_files/SpeakUp.mp3")
+    let nicetomeet = new Audio("./Audio_files/NiceToMeet.mp3")
+    let name = new Audio("./Audio_files/YourName.mp3")
+    let work = new Audio("./Audio_files/DoForWork.mp3")
+
 	function handleKeydown(event) {
 		key = event.key;
         if(key == 0){
             goto('home');
+        }
+
+        if (key == 1){
+            speakup.play();
+        }
+
+        if (key == 2){
+            nicetomeet.play();
+        }
+
+        if (key == 3){
+            name.play();
+        }
+
+        if (key == 4){
+            work.play();
         }
 	}
 
