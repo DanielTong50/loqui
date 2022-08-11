@@ -4,10 +4,43 @@
     import { goto } from '$app/navigation';
 
     let key;
+
+    let headhurts = new Audio("./Audio_files/HeadHurts.mp3")
+    let neckhurts = new Audio("./Audio_files/NeckHurts.mp3")
+    let backhurts = new Audio("./Audio_files/BackPain.mp3")
+    let armhurts = new Audio("./Audio_files/ArmPain.mp3")
+    let legshurt = new Audio("./Audio_files/LegPain.mp3")
+    let chesthurt = new Audio("./Audio_files/ChestPain.mp3")
+
+
 	function handleKeydown(event) {
 		key = event.key;
         if(key == 0){
             goto('home');
+        }
+
+        if (key == 1){
+            headhurts.play();
+        }
+
+        if (key == 2){
+            neckhurts.play();
+        }
+
+        if (key == 3){
+            backhurts.play();
+        }
+
+        if (key == 4){
+            armhurts.play();
+        }
+
+        if (key == 5){
+            legshurt.play();
+        }
+
+        if (key == 6){
+            chesthurt.play();
         }
 	}
 
