@@ -60,13 +60,12 @@ import { onMount } from "svelte";
 </div>
 
 <div class = "instructions">
-    <p>Press the number corresponding to the phrase. Press 0 to always return to the home page.</p>
+    <p>Press the number corresponding to the phrase option. Press 0 anytime to return to the home page.</p>
 </div>
 
 <style>
     .instructions {
         color: gray;
-        font-family: "Inter";
         font-style: italic;
     }
 </style>

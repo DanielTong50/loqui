@@ -65,7 +65,7 @@
 <style>
     .instructions {
         color: gray;
-        font-family: "Inter";
+        font-family: "Inter", sans-serif;
         font-style: italic;
     }
 </style>
