@@ -5,24 +5,29 @@
     import { goto } from '$app/navigation';
 
     let key;
-	function handleKeydown(event) {
-		key = event.key;
-        if(key == 1){
+
+    function handleKeydown(event){
+        key = event.key;
+        selectPhrase(key);
+    }
+
+	function selectPhrase(num) {	
+        if(num == 1){
             goto('/general')
         }
-        else if(key == 2){
+        else if(num == 2){
             goto('/outside')
         }
 
-        else if(key == 3){
+        else if(num == 3){
             goto('/moving_around')
         }
 
-        else if(key == 4){
+        else if(num == 4){
             goto('/emergency')
         }
 		
-        else if(key == 5){
+        else if(num == 5){
             goto('interaction')
         }
 
@@ -33,8 +38,8 @@
 <svelte:window on:keydown={handleKeydown} />
 <Logo />
 <div class="phrases">
-    <PhraseOptions num=1 description="General"/>
-    <PhraseOptions num=2 description="Outside"/>
+    <PhraseOptions num=1 description="General" on:clicked={() => {selectPhrase(1)}}/>
+    <PhraseOptions num=2 description="Outside" on:clicked={() => {selectPhrase(2)}}/>
     <PhraseOptions num=3 description="Moving Around"/>
     <PhraseOptions num=4 description="Emergency"/>
     <PhraseOptions num=5 description="Interaction"/>

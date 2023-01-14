@@ -1,15 +1,26 @@
 <script>
+    import { createEventDispatcher } from 'svelte';
+
+    const dispatch = createEventDispatcher();
 
     export let num = 0;
     export let description = "null";
 
+
+    
+
+    function clicked(){
+        dispatch('clicked');
+    }
+
+
 </script>
 
 
-<div class="main-button">
+<button class="main-button" on:click={clicked}>
     <span>{num}</span>
     <span>{description}</span>
-</div>
+</button>
 
 
 <style>

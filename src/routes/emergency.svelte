@@ -16,6 +16,11 @@
 
 	function handleKeydown(event) {
 		key = event.key;
+        selectPhrase(key)
+	}
+
+    function selectPhrase(key){
+        console.log(key);
         if(key == 0){
             goto('home');
         }
@@ -43,13 +48,13 @@
         if (key == 6){
             chesthurt.play();
         }
-	}
+    }
 
 </script>
 <svelte:window on:keydown={handleKeydown} />
 
 <div class="phrases">
-    <PhraseOptions num=0 description="Exit"/>
+    <PhraseOptions num=0 description="Exit" on:clicked={() => {selectPhrase(0)}}/>
     <PhraseOptions num=1 description="Pain in Head"/>
     <PhraseOptions num=2 description="Pain in Neck"/>
     <PhraseOptions num=3 description="Pain in Back"/>
