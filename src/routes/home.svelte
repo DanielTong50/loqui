@@ -39,7 +39,7 @@
 <Logo />
 <div class="phrases">
     <PhraseOptions num=1 description="General" on:clicked={() => {selectPhrase(1)}}/>
-    <PhraseOptions num=2 description="Outside" on:clicked={() => {selectPhrase(2)}}/>
+    <PhraseOptions num=2 description="Outside" on:clicked={() => {selectPhrase(2)}} icon="outside.png"/>
     <PhraseOptions num=3 description="Moving Around"/>
     <PhraseOptions num=4 description="Emergency"/>
     <PhraseOptions num=5 description="Interaction"/>
