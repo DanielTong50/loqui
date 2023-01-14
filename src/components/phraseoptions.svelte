@@ -21,16 +21,20 @@
     <span>{num}</span>
     <span>{description}</span>
 </button>
+<br>
 
 
 <style>
-    .main-button{
+    .main-button{  
+        border: 5px solid black;
         background-color: #40C2E1;
         color: white;
-        /* text-align: center; */
+        text-align: left;
         border-radius: 10px;
         padding: 10px;
         font-size: 24px;
-        margin: 20px 0px;
+        margin: 10px 0px;
+        min-width: 250px;
+        max-width: 250px;
     }
 </style>
