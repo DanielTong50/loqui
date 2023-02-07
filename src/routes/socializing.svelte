@@ -1,30 +1,37 @@
-<title>Emergency Category</title>
-<h1>Emergency Category</h1>
+<title>Socializing Category</title>
+<h1>Socializing Category</h1>
 <script>
     import PhraseOptions from "../components/phraseoptions.svelte";
     import { goto } from '$app/navigation'
     import { onMount } from "svelte";
 
     let key;
-    //Audio Files, however category has no audio files
+    //Audio files
 
 	function handleKeydown(event) {
 		key = event.key;
-        selectPhrase(key)
+        selectPhrase(key);
     }
 
-    function selectPhrase(num)
-    {
+    function selectPhrase(num) {
         if(num == 0){
             goto('/home');
         }
 
-       else if(num == 1){
-            goto('/mild');
+        if(num == 1){
+            goto('/quick');
         }
 
-        else if(num == 2){
-            goto('/severe');
+        if(num == 2){
+            goto('/thanking');
+        }
+        
+        if(num == 3){
+            goto('/routine');
+        }
+
+        if(num == 4){
+            goto('/conversation');
         }
 	}
 
@@ -33,8 +40,9 @@
 
 <div class="phrases">
     <PhraseOptions num=0 description="Exit" on:clicked={() => {selectPhrase(0)}}/>
-    <PhraseOptions num=1 description="Mild" on:clicked={() => {selectPhrase(1)}}/>
-    <PhraseOptions num=2 description="Severe" on:clicked={() => {selectPhrase(2)}}/>
+    <PhraseOptions num=1 description="Quick" on:clicked={() => {selectPhrase(1)}}/>
+    <PhraseOptions num=2 description="Thanking" on:clicked={() => {selectPhrase(2)}}/>
+    <PhraseOptions num=3 description="Routine" on:clicked={() => {selectPhrase(3)}}/>
 </div>
 
 <div class = "instructions">
