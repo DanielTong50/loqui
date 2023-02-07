@@ -1,7 +1,7 @@
 <title>Outside</title>
 <h1>Outside Phrases</h1>
 <script>
-    import PhraseOptions from "../components/phraseoptions.svelte";
+    import PhraseOptions from "../../components/phraseoptions.svelte";
     import { goto } from '$app/navigation';
 
     let key;

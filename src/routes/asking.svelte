@@ -1,18 +1,12 @@
-<title>General</title>
-<h1>General Phrases</h1>
+<title>Asking</title>
+<h1>Asking Phrases</h1>
 <script>
     import PhraseOptions from "../components/phraseoptions.svelte";
-    import { goto } from '$app/navigation';
-import { onMount } from "svelte";
+    import { goto } from '$app/navigation'
+    import { onMount } from "svelte";
 
     let key;
-
-    let thanks = new Audio("./Audio_files/Thanks.mp3")
-    let sorry = new Audio("./Audio_files/Sorry.mp3")
-    let excuseme = new Audio("./Audio_files/ExcuseMe.mp3")
-    let hello = new Audio("./Audio_files/Hello.mp3")
-    let helpmewiththis = new Audio("./Audio_files/HelpMeWithThis.mp3")
-    let hungry = new Audio("./Audio_files/Hungry.mp3")
+    //Audio files
 
 	function handleKeydown(event) {
 		key = event.key;
@@ -51,12 +45,7 @@ import { onMount } from "svelte";
 
 <div class="phrases">
     <PhraseOptions num=0 description="Exit"/>
-    <PhraseOptions num=1 description="Thanks."/>
-    <PhraseOptions num=2 description="Sorry."/>
-    <PhraseOptions num=3 description="Excuse me."/>
-    <PhraseOptions num=4 description="Hello!"/>
-    <PhraseOptions num=5 description="Could you help me with this please?"/>
-    <PhraseOptions num=6 description="I'm hungry."/>
+    <PhraseOptions num=1 description="How are you?"/>
 </div>
 
 <div class = "instructions">
