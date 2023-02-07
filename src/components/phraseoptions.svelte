@@ -5,7 +5,6 @@
 
     export let num = 0;
     export let description = "null";
-    export let icon = "";
     
 
     function clicked(){
@@ -19,14 +18,13 @@
 <button class="main-button" on:click={clicked}>
     <span>{num}</span>
     <span>{description}</span>
-    <img src="/icons/{icon}" alt="">
 </button>
 <br>
 
 
 <style>
     .main-button{  
-        border: 5px solid black;
+        border: 2px solid black;
         background-color: #40C2E1;
         color: white;
         text-align: left;
@@ -37,7 +35,6 @@
         min-width: 250px;
         max-width: 250px;
     }
-    .main-button img {
-        height: 30px;
-    }
+
 </style>
+
