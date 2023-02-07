@@ -24,7 +24,7 @@
 
 <style>
     .main-button{  
-        border: 2px solid black;
+        border: 1px solid black;
         background-color: #40C2E1;
         color: white;
         text-align: left;
@@ -32,8 +32,8 @@
         padding: 10px;
         font-size: 24px;
         margin: 10px 0px;
-        min-width: 250px;
-        max-width: 250px;
+        min-width: 300px;
+        max-width: 300px;
     }
 
 </style>
