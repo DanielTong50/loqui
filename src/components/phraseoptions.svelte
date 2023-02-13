@@ -32,8 +32,8 @@
         padding: 10px;
         font-size: 24px;
         margin: 10px 0px;
-        min-width: 300px;
-        max-width: 300px;
+        min-width: 275px;
+        max-width: 275px;
     }
 
 </style>
