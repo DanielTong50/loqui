@@ -10,8 +10,6 @@
     function clicked(){
         dispatch('clicked');
     }
-
-
 </script>
 
 
