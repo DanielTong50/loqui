@@ -22,8 +22,8 @@
 
         else if(num == 3){
             goto('/socializing')
-        }
-
+        }   
+        
 	}
 
 </script>
