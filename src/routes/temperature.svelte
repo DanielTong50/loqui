@@ -56,11 +56,11 @@
 <div class="phrases">
     <PhraseOptions num=0 description="Exit" on:clicked={() => {selectPhrase(0)}}/>
     <PhraseOptions num=1 description="What is the temperature?" on:clicked={() => {selectPhrase(1)}}/>
-    <PhraseOptions num=3 description="What is the weather today?" on:clicked={() => {selectPhrase(2)}}/>
-    <PhraseOptions num=4 description="I am cold" on:clicked={() => {selectPhrase(3)}}/>
-    <PhraseOptions num=5 description="I am hot" on:clicked={() => {selectPhrase(4)}}/>
-    <PhraseOptions num=6 description="Can you make the room colder?" on:clicked={() => {selectPhrase(5)}}/>
-    <PhraseOptions num=7 description="Can you make the room hotter?" on:clicked={() => {selectPhrase(6)}}/>
+    <PhraseOptions num=2 description="What is the weather today?" on:clicked={() => {selectPhrase(2)}}/>
+    <PhraseOptions num=3 description="I am cold" on:clicked={() => {selectPhrase(3)}}/>
+    <PhraseOptions num=4 description="I am hot" on:clicked={() => {selectPhrase(4)}}/>
+    <PhraseOptions num=5 description="Can you make the room colder?" on:clicked={() => {selectPhrase(5)}}/>
+    <PhraseOptions num=6 description="Can you make the room hotter?" on:clicked={() => {selectPhrase(6)}}/>
 </div>
 
 <div class = "instructions">
