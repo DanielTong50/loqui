@@ -4,7 +4,7 @@
     import PhraseOptions from "../components/phraseoptions.svelte";
     import { goto } from '$app/navigation'
     import { onMount } from "svelte";
-
+    import Exitphraseoptions from "../components/exitphraseoptions.svelte";
     let key;
     //Audio files
     let Yes = new Audio("./audio/Yes.m4a")
@@ -59,7 +59,7 @@
 <svelte:window on:keydown={handleKeydown} />
 
 <div class="phrases">
-    <PhraseOptions num=0 description="Exit" on:clicked={() => {selectPhrase(0)}}/>
+    <Exitphraseoptions num=0 description="Exit" on:clicked={() => {selectPhrase(0)}}/>
     <PhraseOptions num=1 description="Yes" on:clicked={() => {selectPhrase(1)}}/>
     <PhraseOptions num=2 description="No" on:clicked={() => {selectPhrase(2)}}/>
     <PhraseOptions num=3 description="Maybe" on:clicked={() => {selectPhrase(3)}}/>

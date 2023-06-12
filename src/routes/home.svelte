@@ -1,6 +1,6 @@
 <title>Loqui</title>
 <script>
-    import Logo from "../components/logo.svelte";
+   //import Logo from "../components/logo.svelte";
     import PhraseOptions from "../components/phraseoptions.svelte";
     import { goto } from '$app/navigation';
 
@@ -29,7 +29,13 @@
 </script>
 
 <svelte:window on:keydown={handleKeydown} />
-<Logo />
+
+<div class="title">
+    <img src = "favicon.png" alt="Logo" />
+    <h1>LOQUI</h1>
+    <p>Assistive Technology</p>
+</div>
+
 <div class="phrases">
     <PhraseOptions num=1 description="Needs" on:clicked={() => {selectPhrase(1)}}/>
     <PhraseOptions num=2 description="Emergency" on:clicked={() => {selectPhrase(2)}}/>
@@ -45,6 +51,17 @@
         color: gray;
         font-style: italic;
     }
+    .title {
+        align-items: center;
+        text-align: center;
+    }
+
+    img {
+        width: 100px;
+        margin: 0;
+    }
+    
 </style>
+
 
 

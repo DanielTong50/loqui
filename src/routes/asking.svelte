@@ -4,6 +4,7 @@
     import PhraseOptions from "../components/phraseoptions.svelte";
     import { goto } from '$app/navigation'
     import { onMount } from "svelte";
+    import Exitphraseoptions from "../components/exitphraseoptions.svelte";
 
     let key;
     //Audio files
@@ -44,7 +45,7 @@
 <svelte:window on:keydown={handleKeydown} />
 
 <div class="phrases">
-    <PhraseOptions num=0 description="Exit"/>
+    <Exitphraseoptions num=0 description="Exit"/>
     <PhraseOptions num=1 description="How are you?"/>
 </div>
 

@@ -4,6 +4,7 @@
     import PhraseOptions from "../components/phraseoptions.svelte";
     import { goto } from '$app/navigation'
     import { onMount } from "svelte";
+	import Exitphraseoptions from "../components/exitphraseoptions.svelte";
 
     let key;
     //Audio files
@@ -14,6 +15,7 @@
     let HaveLunch = new Audio("./audio/HaveLunch.m4a")
     let HaveSomeMoreFood = new Audio("./audio/HaveSomeMoreFood.m4a")
     let MoreDrink = new Audio("./audio/MoreDrink.m4a")
+    // let test = new Audio("/audio/test.m4a")
 
 	function handleKeydown(event) {
 		key = event.key;
@@ -51,13 +53,20 @@
         if(num ==7){
             MoreDrink.play();
         }
+
+        /*
+        if(num ==8) {
+            test.play();
+        }
+        */
+
 	}
 
 </script>
 <svelte:window on:keydown={handleKeydown} />
 
 <div class="phrases">
-    <PhraseOptions num=0 description="Exit "on:clicked={() => {selectPhrase(0)}}/>
+    <Exitphraseoptions num=0 description="Exit "on:clicked={() => {selectPhrase(0)}}/>
     <PhraseOptions num=1 description="Can I have some water?" on:clicked={() => {selectPhrase(1)}}/>
     <PhraseOptions num=2 description="Can I have some tea?" on:clicked={() => {selectPhrase(2)}}/>
     <PhraseOptions num=3 description="Can I have a snack?" on:clicked={() => {selectPhrase(3)}}/>

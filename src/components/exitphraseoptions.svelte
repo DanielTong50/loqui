@@ -13,7 +13,7 @@
 </script>
 
 
-<button class="main-button" on:click={clicked}>
+<button class="exit-main-button" on:click={clicked}>
     <span>{num}</span>
     <span>{description}</span>
 </button>
@@ -23,9 +23,9 @@
 
 
 <style>
-    .main-button{  
+    .exit-main-button{  
         border: 1px solid black;
-        background-color: #40C2E1;
+        background-color: #969696;
         color: white;
         text-align: left;
         border-radius: 10px;
