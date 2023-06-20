@@ -7,13 +7,13 @@
     import Exitphraseoptions from "../components/exitphraseoptions.svelte";
     let key;
     //Audio files
-    let Yes = new Audio("./audio/Yes.m4a")
-    let No = new Audio("./audio/No.m4a")
-    let Maybe = new Audio("./audio/Maybe.m4a")
-    let Sure = new Audio("./audio/Sure.m4a")
-    let OfCourse = new Audio("./audio/OfCourse.m4a")
-    let IKnow = new Audio("./audio/IKnow.m4a")
-    let Idk = new Audio("./audio/Idk.m4a")
+    let Yes = new Audio("./audio/Yes.mp3")
+    let No = new Audio("./audio/No.mp3")
+    let Maybe = new Audio("./audio/Maybe.mp3")
+    let Sure = new Audio("./audio/Sure.mp3")
+    let OfCourse = new Audio("./audio/OfCourse.mp3")
+    let IKnow = new Audio("./audio/IKnow.mp3")
+    let Idk = new Audio("./audio/Idk.mp3")
  
 
 	function handleKeydown(event) {

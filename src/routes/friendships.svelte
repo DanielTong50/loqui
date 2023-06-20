@@ -8,8 +8,8 @@
 
     let key;
     //Audio files
-    let Visitors = new Audio("./audio/Visitors.m4a")
-    let SeeFriends = new Audio("./audio/SeeFriends.m4a")
+    let Visitors = new Audio("./audio/Visitors.mp3")
+    let SeeFriends = new Audio("./audio/SeeFriends.mp3")
 
 	function handleKeydown(event) {
 		key = event.key;

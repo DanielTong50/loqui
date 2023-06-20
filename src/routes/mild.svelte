@@ -5,17 +5,18 @@
     import { goto } from '$app/navigation'
     import { onMount } from "svelte";
     import Exitphraseoptions from "../components/exitphraseoptions.svelte";
+	import Phraseoptions from "../components/phraseoptions.svelte";
 
     let key;
     //Audio files
-    let HeadHurts = new Audio("./audio/HeadHurts.m4a")
-    let ArmsHurt = new Audio("./audio/ArmsHurt.m4a")
-    let ArmHurts = new Audio("./audio/ArmHurts.m4a")
-    let BackHurts = new Audio("./audio/BackHurts.m4a")
-    let LegsHurt = new Audio("./audio/LegsHurt.m4a")
-    let ChestHurts = new Audio("./audio/ChestHurts.m4a")
-    let FeetHurt = new Audio("./audio/FeetHurt.m4a")
-    let EyesHurt = new Audio("./audio/EyesHurt.m4a")
+    let HeadHurts = new Audio("./audio/HeadHurts.mp3")
+    let ArmsHurt = new Audio("./audio/ArmsHurt.mp3")
+    let ArmHurts = new Audio("./audio/ArmHurts.mp3")
+    let BackHurts = new Audio("./audio/BackHurts.mp3")
+    let LegsHurt = new Audio("./audio/LegsHurt.mp3")
+    let ChestHurts = new Audio("./audio/ChestHurts.mp3")
+    let FeetHurt = new Audio("./audio/FeetHurt.mp3")
+    let EyesHurt = new Audio("./audio/EyesHurt.mp3")
 
 	function handleKeydown(event) {
 		key = event.key;
@@ -58,7 +59,6 @@
         if(num == 8){
             EyesHurt.play();
         }
-
 	}
 
 </script>

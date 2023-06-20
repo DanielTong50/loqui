@@ -8,12 +8,12 @@
 
     let key;
     //Audio files
-    let Temperature = new Audio("./audio/Temperature.m4a")
-    let Weather = new Audio("./audio/Weather.m4a")
-    let Cold = new Audio("./audio/Cold.m4a")
-    let Hot = new Audio("./audio/Hot.m4a")
-    let RoomColder = new Audio("./audio/RoomColder.m4a")
-    let RoomHotter = new Audio("./audio/RoomHotter.m4a")
+    let Temperature = new Audio("./audio/Temperature.mp3")
+    let Weather = new Audio("./audio/Weather.mp3")
+    let Cold = new Audio("./audio/Cold.mp3")
+    let Hot = new Audio("./audio/Hot.mp3")
+    let RoomColder = new Audio("./audio/RoomColder.mp3")
+    let RoomHotter = new Audio("./audio/RoomHotter.mp3")
 
 	function handleKeydown(event) {
 		key = event.key;

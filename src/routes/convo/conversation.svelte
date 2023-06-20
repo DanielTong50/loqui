@@ -1,10 +1,10 @@
 <title>Conversation Category</title>
 <h1>Conversation Category</h1>
 <script>
-    import PhraseOptions from "../components/phraseoptions.svelte";
+    import PhraseOptions from "../../components/phraseoptions.svelte";
     import { goto } from '$app/navigation'
     import { onMount } from "svelte";
-    import Exitphraseoptions from "../components/exitphraseoptions.svelte";
+    import Exitphraseoptions from "../../components/exitphraseoptions.svelte";
     let key;
     //Audio Files, however category has no audio files
 

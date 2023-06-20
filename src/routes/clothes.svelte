@@ -8,11 +8,11 @@
 
     let key;
     //Audio files
-    let ChangeClothes = new Audio("./audio/ChangeClothes.m4a")
-    let ButtonShirt = new Audio("./audio/ButtonShirt.m4a")
-    let BrushTeeth = new Audio("./audio/BrushTeeth.m4a")
-    let FlossTeeth = new Audio("./audio/FlossTeeth.m4a")
-    let Deodorant = new Audio("./audio/Deodorant.m4a")
+    let ChangeClothes = new Audio("./audio/ChangeClothes.mp3")
+    let ButtonShirt = new Audio("./audio/ButtonShirt.mp3")
+    let BrushTeeth = new Audio("./audio/BrushTeeth.mp3")
+    let FlossTeeth = new Audio("./audio/FlossTeeth.mp3")
+    let Deodorant = new Audio("./audio/Deodorant.mp3")
 
 	function handleKeydown(event) {
 		key = event.key;

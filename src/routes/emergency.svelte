@@ -2,6 +2,7 @@
 <h1>Emergency Category</h1>
 <script>
     import PhraseOptions from "../components/phraseoptions.svelte";
+    import CategoryOptions from "../components/categoryoptions.svelte"
     import { goto } from '$app/navigation'
     import { onMount } from "svelte";
     import Exitphraseoptions from "../components/exitphraseoptions.svelte";
@@ -33,8 +34,8 @@
 
 <div class="phrases">
     <Exitphraseoptions num=0 description="Exit" on:clicked={() => {selectPhrase(0)}}/>
-    <PhraseOptions num=1 description="Mild" on:clicked={() => {selectPhrase(1)}}/>
-    <PhraseOptions num=2 description="Severe" on:clicked={() => {selectPhrase(2)}}/>
+    <CategoryOptions num=1 description="Mild" img = "mild.png" on:clicked={() => {selectPhrase(1)}}/>
+    <CategoryOptions num=2 description="Severe" img = "severe.png" on:clicked={() => {selectPhrase(2)}}/>
 </div>
 
 <div class = "instructions">

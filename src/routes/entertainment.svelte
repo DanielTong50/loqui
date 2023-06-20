@@ -7,12 +7,12 @@
     import Exitphraseoptions from "../components/exitphraseoptions.svelte";
     let key;
     //Audio files
-    let WatchTV = new Audio("./audio/WatchTV.m4a")
-    let PlayGame = new Audio("./audio/PlayGame.m4a")
-    let UseComputer = new Audio("./audio/UseComputer.m4a")
-    let ReadBook = new Audio("./audio/ReadBook.m4a")
-    let TellStory = new Audio("./audio/TellStory.m4a")
-    let TellJoke = new Audio("./audio/TellJoke.m4a")
+    let WatchTV = new Audio("./audio/WatchTV.mp3")
+    let PlayGame = new Audio("./audio/PlayGame.mp3")
+    let UseComputer = new Audio("./audio/UseComputer.mp3")
+    let ReadBook = new Audio("./audio/ReadBook.mp3")
+    let TellStory = new Audio("./audio/TellStory.mp3")
+    let TellJoke = new Audio("./audio/TellJoke.mp3")
 
 	function handleKeydown(event) {
 		key = event.key;

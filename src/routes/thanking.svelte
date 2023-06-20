@@ -8,9 +8,9 @@
 
     let key;
     //Audio files
-    let ThankYou = new Audio("./audio/ThankYou.m4a")
-    let Appreciate = new Audio("./audio/Appreciate.m4a")
-    let VeryHelpful = new Audio("./audio/VeryHelpful.m4a")
+    let ThankYou = new Audio("./audio/ThankYou.mp3")
+    let Appreciate = new Audio("./audio/Appreciate.mp3")
+    let VeryHelpful = new Audio("./audio/Veryhelpful.mp3")
 
 	function handleKeydown(event) {
 		key = event.key;

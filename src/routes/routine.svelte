@@ -8,10 +8,10 @@
 
     let key;
     //Audio files
-    let GoodMorning = new Audio("./audio/GoodMorning.m4a")
-    let GoodAfternoon = new Audio("./audio/GoodAfternoon.m4a")
-    let GoodEvening = new Audio("./audio/GoodEvening.m4a")
-    let GoodNight = new Audio("./audio/GoodNight.m4a")
+    let GoodMorning = new Audio("./audio/GoodMorning.mp3")
+    let GoodAfternoon = new Audio("./audio/GoodAfternoon.mp3")
+    let GoodEvening = new Audio("./audio/GoodEvening.mp3")
+    let GoodNight = new Audio("./audio/GoodNight.mp3")
 
 	function handleKeydown(event) {
 		key = event.key;

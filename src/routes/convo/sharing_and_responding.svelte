@@ -1,10 +1,10 @@
 <title>Sharing and Responding</title>
 <h1>Sharing and Responding Phrases</h1>
 <script>
-    import PhraseOptions from "../components/phraseoptions.svelte";
+    import PhraseOptions from "../../components/phraseoptions.svelte";
     import { goto } from '$app/navigation'
     import { onMount } from "svelte";
-    import Exitphraseoptions from "../components/exitphraseoptions.svelte";
+    import Exitphraseoptions from "../../components/exitphraseoptions.svelte";
 
     let key;
     //Audio files

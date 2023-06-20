@@ -2,6 +2,7 @@
 <h1>Socializing Category</h1>
 <script>
     import PhraseOptions from "../components/phraseoptions.svelte";
+    import CategoryOptions from "../components/categoryoptions.svelte"
     import { goto } from '$app/navigation'
     import { onMount } from "svelte";
     import Exitphraseoptions from "../components/exitphraseoptions.svelte";

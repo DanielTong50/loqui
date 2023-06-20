@@ -8,14 +8,14 @@
 
     let key;
     //Audio files
-    let CanIHaveWater = new Audio("./audio/CanIHaveWater.m4a")
-    let CanIHaveTea = new Audio("./audio/CanIHaveTea.m4a")
-    let HaveSnack = new Audio("./audio/HaveSnack.m4a")
-    let HaveBreakfast = new Audio("./audio/HaveBreakfast.m4a")
-    let HaveLunch = new Audio("./audio/HaveLunch.m4a")
-    let HaveSomeMoreFood = new Audio("./audio/HaveSomeMoreFood.m4a")
-    let MoreDrink = new Audio("./audio/MoreDrink.m4a")
-    // let test = new Audio("/audio/test.m4a")
+    let CanIHaveWater = new Audio("./audio/CanIHaveWater.mp3")
+    let CanIHaveTea = new Audio("./audio/CanIHaveTea.mp3")
+    let HaveSnack = new Audio("./audio/HaveSnack.mp3")
+    let HaveBreakfast = new Audio("./audio/HaveBreakfast.mp3")
+    let HaveLunch = new Audio("./audio/HaveLunch.mp3")
+    let HaveSomeMoreFood = new Audio("./audio/HaveSomeMoreFood.mp3")
+    let MoreDrink = new Audio("./audio/MoreDrink.mp3")
+
 
 	function handleKeydown(event) {
 		key = event.key;

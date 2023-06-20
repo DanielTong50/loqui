@@ -8,14 +8,14 @@
 
     let key;
     //Audio files
-    let SevereHeadPain = new Audio("./audio/SevereHeadPain.m4a")
-    let SevereArmPain = new Audio("./audio/SevereArmPain.m4a")
-    let SevereBackPain = new Audio("./audio/SevereBackPain.m4a")
-    let SevereLegPain = new Audio("./audio/SevereLegPain.m4a")
-    let DifficultToBreathe = new Audio("./audio/DifficultToBreathe.m4a")
-    let SevereChestPain = new Audio("./audio/SevereChestPain.m4a")
-    let SevereEyePain = new Audio("./audio/SevereEyePain.m4a")
-    let SevereFootPain = new Audio("./audio/SevereFootPain.m4a")
+    let SevereHeadPain = new Audio("./audio/SevereHeadPain.mp3")
+    let SevereArmPain = new Audio("./audio/SevereArmPain.mp3")
+    let SevereBackPain = new Audio("./audio/SevereBackPain.mp3")
+    let SevereLegPain = new Audio("./audio/SevereLegPain.mp3")
+    let DifficultToBreathe = new Audio("./audio/DifficultToBreathe.mp3")
+    let SevereChestPain = new Audio("./audio/SevereChestPain.mp3")
+    let SevereEyePain = new Audio("./audio/SevereEyePain.mp3")
+    let SevereFootPain = new Audio("./audio/SevereFootPain.mp3")
 
 
 	function handleKeydown(event) {
