@@ -40,11 +40,14 @@
 
 <div class = "instructions">
     <p>Press the number corresponding to the phrase option. Press 0 anytime to return to the home page.</p>
+    <p>Icons by Flaticon and The Noun Project</p>
 </div>
 
 <style>
     .instructions {
         color: gray;
         font-style: italic;
+        align-items: center;
+        text-align: center;
     }
 </style>
