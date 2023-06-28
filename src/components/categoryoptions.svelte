@@ -13,7 +13,7 @@
 </script>
 
 <button class="main-button" on:click={clicked}>
-    <div class="icon"><i class="fa-solid fa-{icon} icon" /></div>
+    <div class="icon"><i class="fa-solid fa-{icon} fa-lg icon" /></div>
     <div class="content">
         <span class="number">{num}</span>
         <span class="text">{description}</span>
@@ -21,9 +21,7 @@
     
 </button>
 
-
 <br>
-
 
 <style>
     .main-button{  
@@ -35,22 +33,11 @@
         border-radius: 10px;
         padding: 10px;
         font-size: 24px;
-        /* margin: 10px 0px; */
+        margin: 10px 0px;
         min-width: 275px;
         max-width: 275px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
-    .icon {
-        display: flex;
-        justify-content: center;
-    }
-    .content {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-    }
+    
     .number {
         margin-right: 10px;
     }
