@@ -38,7 +38,7 @@
 </div>
 
 <div class="phrases">
-    <CategoryOptions num=1 description= "Needs" img = "needs.png" on:clicked={() => {selectPhrase(1)}}/>
+    <CategoryOptions num=1 description= "Needs" icon="hand-holding-heart" on:clicked={() => {selectPhrase(1)}}/>
     <CategoryOptions num=2 description="Emergency" img = "Emergency.png" on:clicked={() => {selectPhrase(2)}}/>
     <CategoryOptions num=3 description="Socializing" img = "General.png" on:clicked={() => {selectPhrase(3)}}/>
 </div>
