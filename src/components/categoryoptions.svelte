@@ -29,6 +29,7 @@
 
 <style>
     .main-button{  
+        font-family: "Poppins", sans-serif;
         border: 1px solid black;
         background-color: #40C2E1;
         color: white;
