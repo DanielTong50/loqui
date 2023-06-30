@@ -41,9 +41,9 @@
 
 <div class="phrases">
     <Exitphraseoptions num=0 description="Exit" on:clicked={() => {selectPhrase(0)}}/>
-    <CategoryOptions num=1 description="Quick" img = "quick.png" on:clicked={() => {selectPhrase(1)}}/>
-    <CategoryOptions num=2 description="Thanking" img = "thank.png" on:clicked={() => {selectPhrase(2)}}/>
-    <CategoryOptions num=3 description="Routine" img = "routine.png" on:clicked={() => {selectPhrase(3)}}/>
+    <CategoryOptions num=1 description="Quick" icon = "face-laugh-beam" img = "quick.png" on:clicked={() => {selectPhrase(1)}}/>
+    <CategoryOptions num=2 description="Thanking" icon ="person-praying" img = "thank.png" on:clicked={() => {selectPhrase(2)}}/>
+    <CategoryOptions num=3 description="Routine" icon = "arrows-spin" img = "routine.png" on:clicked={() => {selectPhrase(3)}}/>
 </div>
 
 <div class = "instructions">

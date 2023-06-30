@@ -47,10 +47,10 @@
     <Exitphraseoptions num=0 description="Exit" on:clicked={() => {selectPhrase(0)}}/>
     <CategoryOptions num=1 description="Mobility" icon="person-walking" on:clicked={() => {selectPhrase(1)}}/>
     <CategoryOptions num=2 description="Food and Water" icon="utensils" on:clicked={() => {selectPhrase(2)}}/>
-    <CategoryOptions num=3 description="Entertainment" img = "entertainment.png" on:clicked={() => {selectPhrase(3)}}/>
-    <CategoryOptions num=4 description="Clothes"img = "clothes.png" on:clicked={() => {selectPhrase(4)}}/>
-    <CategoryOptions num=5 description="Friendships" img = "friends.png" on:clicked={() => {selectPhrase(5)}}/>
-    <CategoryOptions num=6 description="Temperature" img = "temperature.png" on:clicked={() => {selectPhrase(6)}}/>
+    <CategoryOptions num=3 description="Entertainment" icon="film" on:clicked={() => {selectPhrase(3)}}/>
+    <CategoryOptions num=4 description="Clothes"icon = "shirt" on:clicked={() => {selectPhrase(4)}}/>
+    <CategoryOptions num=5 description="Friendships" icon = "heart" on:clicked={() => {selectPhrase(5)}}/>
+    <CategoryOptions num=6 description="Temperature" icon = "thermometer-half" on:clicked={() => {selectPhrase(6)}}/>
 </div>
 
 <div class = "instructions">
