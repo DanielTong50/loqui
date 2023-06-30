@@ -1,8 +1,8 @@
 <title>Loqui</title>
 <script>
    //import Logo from "../components/logo.svelte";
-   import CategoryOptions from "../components/categoryoptions.svelte"; 
-   import PhraseOptions from "../components/phraseoptions.svelte";
+    import CategoryOptions from "../components/categoryoptions.svelte"; 
+    import PhraseOptions from "../components/phraseoptions.svelte";
     import { goto } from '$app/navigation';
 	
     let key;
@@ -45,7 +45,7 @@
 
 <div class = "instructions">
     <p>Press the number corresponding to the phrase option. Press 0 anytime to return to the home page.</p>
-    <p>Icons by FontAwesome</p>
+    <p>Icons by FontAwesome.</p>
 </div>
 
 <style>

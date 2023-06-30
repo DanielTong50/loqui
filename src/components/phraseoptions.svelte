@@ -26,7 +26,6 @@
 
 <style>
     .main-button{  
-        font-family: "Poppins", sans-serif;
         border: 1px solid black;
         background-color: #40C2E1;
         color: white;
@@ -37,6 +36,7 @@
         margin: 10px 0px;
         min-width: 275px;
         max-width: 275px;
+        font-family: "Inter";
     }
 </style>
 

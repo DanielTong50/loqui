@@ -1,18 +1,11 @@
 <div class="main-content">
-
-	<!-- <img src="" alt="Splash Image" />
-	<div class="button-description">
-		<button>Press any key to get started!</button>
-		<p>Brought to you by the UBC Geering-Up STEM Leadership Program</p>
-	</div> -->
     <slot/>
 </div>
 
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-
+	@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 	.main-content {
-		font-family: "Poppins", sans-serif;
+		font-family: "Inter", sans-serif;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
