@@ -40,7 +40,7 @@
 
 <div class = "instructions">
     <p>Press the number corresponding to the phrase option. Press 0 anytime to return to the home page.</p>
-    <p>Icons by Flaticon and The Noun Project</p>
+    <p>Icons by FontAwesome</p>
 </div>
 
 <style>
