@@ -15,7 +15,7 @@
 
 
 <button class="main-button" on:click={clicked}>
-    <img src = {img} alt="ImageSoon"/>
+    <img  src = {img} alt="ImageSoon" class = "icon"/>
     <br>
     <span>{num}</span>
     <span>{description}</span>
@@ -41,5 +41,12 @@
         min-width: 275px;
         max-width: 275px;
     }
+    .icon {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+
 </style>
 
