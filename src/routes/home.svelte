@@ -1,8 +1,8 @@
 <title>Loqui</title>
 <script>
    //import Logo from "../components/logo.svelte";
-   import CategoryOptions from "../components/categoryoptions.svelte"; 
-   import PhraseOptions from "../components/phraseoptions.svelte";
+    import CategoryOptions from "../components/categoryoptions.svelte"; 
+    import PhraseOptions from "../components/phraseoptions.svelte";
     import { goto } from '$app/navigation';
 	
     let key;
@@ -38,14 +38,14 @@
 </div>
 
 <div class="phrases">
-    <CategoryOptions num=1 description= "Needs" img = "needs.png" on:clicked={() => {selectPhrase(1)}}/>
-    <CategoryOptions num=2 description="Emergency" img = "Emergency.png" on:clicked={() => {selectPhrase(2)}}/>
-    <CategoryOptions num=3 description="Socializing" img = "General.png" on:clicked={() => {selectPhrase(3)}}/>
+    <CategoryOptions num=1 description= "Needs" icon="hand-holding-heart" on:clicked={() => {selectPhrase(1)}}/>
+    <CategoryOptions num=2 description="Emergency" icon="triangle-exclamation" on:clicked={() => {selectPhrase(2)}}/>
+    <CategoryOptions num=3 description="Socializing" icon="comments" filled=false on:clicked={() => {selectPhrase(3)}}/>
 </div>
 
 <div class = "instructions">
     <p>Press the number corresponding to the phrase option. Press 0 anytime to return to the home page.</p>
-    <p>Icons by Flaticon and The Noun Project</p>
+    <p>Icons by FontAwesome.</p>
 </div>
 
 <style>

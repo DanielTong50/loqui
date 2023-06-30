@@ -34,13 +34,13 @@
 
 <div class="phrases">
     <Exitphraseoptions num=0 description="Exit" on:clicked={() => {selectPhrase(0)}}/>
-    <CategoryOptions num=1 description="Mild" img = "mild.png" on:clicked={() => {selectPhrase(1)}}/>
-    <CategoryOptions num=2 description="Severe" img = "severe.png" on:clicked={() => {selectPhrase(2)}}/>
+    <CategoryOptions num=1 description="Mild" icon = "bandage" img = "mild.png" on:clicked={() => {selectPhrase(1)}}/>
+    <CategoryOptions num=2 description="Severe" icon = "skull-crossbones" img = "severe.png" on:clicked={() => {selectPhrase(2)}}/>
 </div>
 
 <div class = "instructions">
     <p>Press the number corresponding to the phrase option. Press 0 anytime to return to the home page.</p>
-    <p>Icons by Flaticon and The Noun Project</p>
+    <p>Icons by FontAwesome</p>
 </div>
 
 <style>

@@ -6,7 +6,6 @@
     export let num = 0;
     export let description = "null";
     
-
     function clicked(){
         dispatch('clicked');
     }
@@ -34,6 +33,7 @@
         margin: 10px 0px;
         min-width: 275px;
         max-width: 275px;
+        font-family: "Inter";
     }
 </style>
 
