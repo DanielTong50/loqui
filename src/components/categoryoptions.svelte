@@ -6,6 +6,7 @@
     export let num = 0;
     export let description = "";
     export let icon;
+    export let filled = true;
     
     function clicked(){
         dispatch('clicked');
@@ -13,7 +14,12 @@
 </script>
 
 <button class="main-button" on:click={clicked}>
-    <div class="icon"><i class="fa-solid fa-{icon} fa-lg icon" /></div>
+    <div class="icon">
+        {#if filled == true}
+            <i class="fa-solid fa-{icon} fa-2xl" />
+        {:else} <i class="fa-regular fa-{icon} fa-2xl" />
+        {/if}
+    </div>
     <div class="content">
         <span class="number">{num}</span>
         <span class="text">{description}</span>
@@ -38,8 +44,17 @@
         max-width: 275px;
     }
     
-    .number {
-        margin-right: 10px;
+    .icon {
+        position: relative;
+        display: inside;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 50%;
+        height:50%;
+        align-items: center;
+        text-align: center;
     }
 </style>
 
