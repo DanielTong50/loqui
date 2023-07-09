@@ -32,7 +32,7 @@
 <svelte:window on:keydown={handleKeydown} />
 
 <div class="title">
-    <img src = "favicon.png" alt="Logo" />
+    <img src = "icons/favicon.png" alt="Logo" />
     <h1>LOQUI</h1>
     <p>Assistive Technology</p>
 </div>
