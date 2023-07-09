@@ -1,7 +1,7 @@
 <!--This File simply serves as our iniital template page that Reid taught us with-->
 
 <script>
-    import Example from "../../components/example.svelte";
+    import Example from "./example.svelte";
 
 
     let x = 0;
