@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@300&display=swap');
 :root {
-    --font-body: 'Inter', 'Open Sans', BlinkMacSystemFont, system-ui;
+    --font-body: 'Roboto', 'Inter', BlinkMacSystemFont, system-ui;
     font-family: var(--font-body);
 }
 
 html, body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }

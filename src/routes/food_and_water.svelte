@@ -73,7 +73,7 @@
     <PhraseOptions num=4 description="Can I have breakfast?" on:clicked={() => {selectPhrase(4)}}/>
     <PhraseOptions num=5 description="Can I have lunch?" on:clicked={() => {selectPhrase(5)}}/>
     <PhraseOptions num=6 description="Can I have some more food?" on:clicked={() => {selectPhrase(6)}}/>
-    <PhraseOptions num=7 description="Can I have some more of my drink" on:clicked={() => {selectPhrase(7)}}/>
+    <PhraseOptions num=7 description="Can I have some more of my drink?" on:clicked={() => {selectPhrase(7)}}/>
 </div>
 
 <div class = "instructions">
