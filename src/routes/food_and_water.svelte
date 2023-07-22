@@ -77,7 +77,7 @@
 </div>
 
 <div class = "instructions">
-    <p>Press the number corresponding to the phrase option. Press 0 anytime to return to the previous page.</p>
+    <p>Press the number corresponding to the phrase option. Press 0 to return to the previous page.</p>
 </div>
 
 <style>
